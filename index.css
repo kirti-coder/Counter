@@ -1,0 +1,56 @@
+/* *{
+    backdrop-filter: blur(3px);
+} */
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url('./images/Palace-on-wheels.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    text-decoration: green;
+}
+h2{
+    text-align: center;
+    font-weight: bold;
+}
+#all-btns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#increment-btn{
+   background-color: rgb(43, 199, 173);
+    padding: 14px 37px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+#increment-btn:hover{
+    background-color: rgb(71, 141, 168);
+}
+#divforsavebtn{
+    margin-top: 30px;
+}
+#savebtn{
+    background-color: rgb(43, 199, 173);
+    padding: 14px 67px;
+    font-size: 15px;
+    border-radius: 6px;
+}
+#savebtn:hover{
+    background-color: rgb(71, 141, 168);
+}
+#save-el{
+    background-color: yellow;
+    margin-left: 40%;
+    margin-right: 60%;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 319px;
+}
